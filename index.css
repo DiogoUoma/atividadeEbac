@@ -1,0 +1,83 @@
+* {
+    background-color: black;
+}
+
+.headerSite {
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-between;
+}
+
+.headerSite img {
+    height: 100px;
+    padding: 5px 10px;
+}
+
+.headerSite li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+.headerSite a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerSite a:hover {
+    color: rgb(245, 69, 69);
+}
+
+.main {
+    display: flex;
+}
+
+.valorant-banner {
+    height: 500px;
+    padding-right: 15px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    color: rgb(245, 69, 69);
+    font-size: 20px;
+}
+
+.paragraph img {
+    display: flex;
+    height: 55px;
+    width: 55px;
+}
+
+.paragraph img:hover{
+    height: 70px;
+    width: 70px;
+}
+
+.registro {
+    padding-top: 21px;
+}
+
+.registro h2 {
+    color: rgb(237, 136, 136);
+}
+
+.registro button, input{
+    background-color: rgb(53, 1, 1);
+    color: white;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-color: red;
+}
+
+form button {
+    border-radius: 5px;
+}
+
+footer {
+    color: #ecf0f1;
+    padding: 16px 0;
+}
